@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Gaming Tech</title>
+    <link rel="stylesheet" href="about.css">
+    <style>
+        #bg-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="https://www.shutterstock.com/shutterstock/videos/1065382582/preview/stock-footage-digitalization-concept-global-technology-d-earth-digital-connected-network-background-worldwide.webm" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content">
+        <h2>About Gaming Tech</h2>
+        <p>We are passionate about providing gamers with the best technology to elevate their gaming experience.</p>
+    </div>
+</body>
+</html>

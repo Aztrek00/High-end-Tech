@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home .css">
+    <title>Gaming Tech Home</title>
+    <style>
+        #bg-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="https://www.shutterstock.com/shutterstock/videos/1064024797/preview/stock-footage-server-room-with-racks-data-center-d-render.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+        <header>
+            <h1>Welcome to Gaming Tech</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li>
+                        <form action="index.html" method="get">
+                            <button type="submit">Products</button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="about.html" method="get">
+                            <button type="submit">About</button>
+                        </form>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="slider">
+                <div class="slide">
+                    <h2>Latest GPUs</h2>
+                    <p>Discover our cutting-edge graphics cards for ultimate gaming performance.</p>
+                </div>
+                <div class="slide">
+                    <h2>Gaming Peripherals</h2>
+                    <p>Enhance your gaming experience with our high-quality keyboards, mice, and headsets.</p>
+                </div>
+                <div class="slide">
+                    <h2>Custom Gaming PCs</h2>
+                    <p>Build your dream gaming rig with our customizable PC options.</p>
+                </div>
+            </section>
+
+            <section id="featured-products">
+                <h2>Featured Products</h2>
+                <ul>
+                    <li>Gaming GPUs</li>
+                    <li>Gaming Mechanical Keyboards</li>
+                    <li>Gaming Monitors</li>
+                    <li>Gaming Mice</li>
+                    <li>Gaming Headsets</li>
+                    <li>Gaming PCs</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Gaming Tech. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
